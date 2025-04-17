@@ -44,8 +44,8 @@
 </head>
 <body>
   <div class="logo-bar">
-    <img src="C:\Users\K GOVINDARUN\Desktop\code\Match\csk.png" alt="CSK Logo" />
-    <img src="C:\Users\K GOVINDARUN\Desktop\code\Match\ben.png" alt="BEN Logo" />
+    <img src="csk.png" alt="CSK Logo" />
+    <img src="ben.png" alt="BEN Logo" />
   </div>
   <div class="scorecard">
     CSK: 182/4 (20) &nbsp;&nbsp; BEN: 174/8 (20)
@@ -71,7 +71,7 @@
     scene.add(light);
 
     // Cricket Ball
-    textureLoader.load("C:\Users\K GOVINDARUN\Desktop\code\Match\ball.png", (texture) => {
+    textureLoader.load("ball.png", (texture) => {
   const geometry = new THREE.SphereGeometry(1, 32, 32);
   const material = new THREE.MeshStandardMaterial({ map: texture });
   const ball = new THREE.Mesh(geometry, material);
