@@ -71,7 +71,7 @@
     scene.add(light);
 
     // Cricket Ball
-    textureLoader.load("Cricket_Intro/Images/ball.png", (texture) => {
+    textureLoader.load("https://raw.githubusercontent.com/mohanaramanking/Cricket_Intro/main/images/ball.png", (texture) => {
   const geometry = new THREE.SphereGeometry(1, 32, 32);
   const material = new THREE.MeshStandardMaterial({ map: texture });
   const ball = new THREE.Mesh(geometry, material);
